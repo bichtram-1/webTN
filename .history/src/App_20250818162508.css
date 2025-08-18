@@ -40,11 +40,7 @@
 /* & để chỉ ngang hàng */
 .app-container{
   .header-container{
-   .navbar {
-    z-index: 10;
-    /* opacity: 0.6; */
-    /* important: cho ghi đè */
-    background-color: rgba(0, 0 , 0, 0 ) !important;
+   .navbar-nav {
     .nav-link{
       &.active{
         color: red;
@@ -55,14 +51,6 @@
   }
 }
 
-/* .app-container .header-container .navbar-nav .nav-link.active {
+.app-container .header-container .navbar-nav .nav-link.active {
   color: red;
-} */
-
-
-video{
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-
 }

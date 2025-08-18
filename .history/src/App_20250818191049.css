@@ -40,11 +40,9 @@
 /* & để chỉ ngang hàng */
 .app-container{
   .header-container{
-   .navbar {
+   .navbar-nav {
     z-index: 10;
-    /* opacity: 0.6; */
-    /* important: cho ghi đè */
-    background-color: rgba(0, 0 , 0, 0 ) !important;
+    opacity: 0.6;
     .nav-link{
       &.active{
         color: red;
